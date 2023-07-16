@@ -24,10 +24,17 @@ const token = fs.readFileSync('token.txt').toString();
 console.log(token); // Output: 'my-secret-token'
 
 
+// app.use(cors({
+//   origin: 'http://localhost:3000', 
+//   credentials: true
+//   }));
+  
 app.use(cors({
-origin: 'http://localhost:3000', 
-credentials: true
-}));
+  origin: 'http://www.technoidusa.com', 
+  credentials: true
+  }));
+  
+
 
 app.use(bodyParser.json());
 
@@ -159,7 +166,12 @@ newUser.save()
   .then(() => console.log('User created'))
   .catch(err => console.error(err));
 
-const PORT = 5000;
+const PORT = 80;
 server.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
+
+// const PORT = 5000;
+// server.listen(PORT, () => {
+//   console.log(`Server listening on port ${PORT}`);
+// });
