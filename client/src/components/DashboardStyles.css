@@ -1,0 +1,90 @@
+@media only screen and (max-width: 768px) {
+    /* styles for screens smaller than 768px */
+    table {
+      font-size: 14px;
+    }
+    th, td {
+      padding: 5px;
+    }
+    #export-btn {
+      font-size: 45%;
+      padding: 10px 15px;
+    }
+    #del-btn {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+    .dashboard {
+      width: 95%;
+    }
+  }
+  
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    color: black;
+}
+
+th {
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+}
+
+#export-btn {
+    background-color : black;
+    color:WHite;
+    border: none;
+    padding: 16px 20px;
+    font-size: 55%;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+#export-btn:hover {
+    background-color: white;
+    color: black;
+   
+}
+
+#del-btn{
+    background-color : black;
+    color:WHite;
+    border: none;
+    padding: 8px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 8px;
+
+}
+#del-btn:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+#title-css{
+    color: black;
+    text-align: center;
+    position:relative;
+     top:-56px; 
+     left:0px;
+      margin-left:0px;
+       margin-right:0px;
+}
+.dashboard {
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+    
+}
+

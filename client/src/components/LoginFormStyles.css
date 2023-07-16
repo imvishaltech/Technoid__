@@ -1,0 +1,85 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-1 {
+  text-align: center;
+  font-size: 4.2rem;
+  color: black;
+  font-weight: bold;
+  font-family: none;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#adminBG {
+  filter: brightness(95%);
+  background-position: center;
+}
+
+.form-input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid gray;
+  width: 100%;
+  max-width: 20%;
+}
+
+.btns-design {
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: pink;
+  border: white;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.form-design {
+  width: 100%;
+  max-width: 450px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 20px;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+@media (max-width: 767px) {
+  .form-1 {
+    font-size: 2rem;
+  }
+  .form-label {
+    font-size: 1rem;
+  }
+  .form-input {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .form-1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .form-input {
+    max-width: 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form-input {
+    max-width: 20%;
+  }
+}

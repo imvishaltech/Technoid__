@@ -1,0 +1,108 @@
+.technoid2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    }
+    
+    .consultcontact_2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    }
+    
+    #consult_contact {
+    width: 100%;
+    }
+    
+    .heading {
+        top: 13rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    }
+    
+    #h1_Tag {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+    }
+    
+    #ptag {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+    text-align: justify;
+    }
+
+    #heading_2 {
+        position: absolute;
+        right: 0;
+        top: 62rem;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    @media (max-width: 576px) {
+        #heading_2 {
+            width: 50%;
+            right: 10%;
+        }
+    }
+
+    .P_tag1 {
+        width :400px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 5rem;
+    text-align: center;
+    }
+    
+    .P_tag2 {
+        width :400px;
+    font-size: 1.2rem;
+    color: #555;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    }
+    
+    .fadeIn {
+    animation: fadeIn 1s ease-in-out;
+    }
+    
+    .fadeOut {
+    animation: fadeOut 1s ease-in-out;
+    }
+    
+    @keyframes fadeIn {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+    }
+    
+    @keyframes fadeOut {
+    from {
+    opacity: 1;
+    }
+    to {
+    opacity: 0;
+    }
+    }

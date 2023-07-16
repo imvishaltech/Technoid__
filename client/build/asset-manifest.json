@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b9413f57.css",
+    "main.js": "/static/js/main.bb317295.js",
+    "static/media/Background_Video.mp4": "/static/media/Background_Video.3d325c4ed8a2e776b2ac.mp4",
+    "static/media/VideoBack2.mp4": "/static/media/VideoBack2.75cebfb325ea812857d5.mp4",
+    "static/media/ShakeHands.png": "/static/media/ShakeHands.5e1f6717a8c7788b68dd.png",
+    "static/media/usa.png": "/static/media/usa.9f5ec099dac8281ff85d.png",
+    "static/media/two.png": "/static/media/two.b9ce68d0741e354c72a5.png",
+    "static/media/consulting_2.jpg": "/static/media/consulting_2.d585121aff0a7afbbe7f.jpg",
+    "static/media/Coin.svg": "/static/media/Coin.6d601ef90a2c5e6334a413a5ad2e27f2.svg",
+    "static/media/Cyber.svg": "/static/media/Cyber.c816788534ea2b03770a77e67533c18f.svg",
+    "static/media/one.png": "/static/media/one.5b824cddf5958f1f81ee.png",
+    "static/media/Techno.svg": "/static/media/Techno.4d9d700e1d9c8e7ecfaa6f70477ff6a0.svg",
+    "static/media/Web.svg": "/static/media/Web.370b1b61fda40007ff27fd95a18a4400.svg",
+    "static/media/saas.svg": "/static/media/saas.5e8c122f72190f969f4eb7aa7dd57e8c.svg",
+    "static/media/AI.svg": "/static/media/AI.d45ac4d0d3949a6745ae8df55a201cc3.svg",
+    "static/media/Soft.svg": "/static/media/Soft.2df853449ad51b29d911e6cc87967ef0.svg",
+    "static/media/App.svg": "/static/media/App.217f85a39f3795eeaf7a48883c64a564.svg",
+    "index.html": "/index.html",
+    "main.b9413f57.css.map": "/static/css/main.b9413f57.css.map",
+    "main.bb317295.js.map": "/static/js/main.bb317295.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9413f57.css",
+    "static/js/main.bb317295.js"
+  ]
+}

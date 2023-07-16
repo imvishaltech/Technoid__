@@ -1,0 +1,125 @@
+@media only screen and (max-width: 767px) {
+    /* styles for screens with width less than 767px */
+    }
+    
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* styles for screens with width between 768px and 1023px */
+    }
+    
+    @media only screen and (min-width: 1024px) {
+    /* styles for screens with width equal or greater than 1024px */
+    }
+
+.header-1 {background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 1rem;
+    position: static;
+    width: 100%;
+    height: 90px;
+    z-index: 10;
+    background-color: var(--main-color);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.header-bg-1{
+    background-color: black;
+ 
+}
+
+.nav-menu { background-color: black;
+    display: flex;
+    list-style: none;
+    color : rgb(56, 54, 54)
+}
+
+.nav-menu li { background-color: black;
+    padding: 0 1rem;
+}
+
+.nav-menu li a { background-color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    
+    
+}
+
+.nav-menu li a:hover {
+    
+    color: var(--hover-color);
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px 7px;
+
+}
+
+.nav-menu .active { background-color: black;
+    color: var(--active-color);
+}
+
+.hamburger { background-color: black;
+    display: none;
+}
+
+.Htag-1 { 
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+  
+  .FaHome {
+    
+    color: black;
+    margin-right: 1.5rem;
+  }
+
+h1{
+    margin: center;
+}
+.hamburger-1 i {
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* @media screen and (max-width: 1040px) {
+    .nav-menu { background-color: black;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: var(--main-color);
+        position: absolute;
+        top: 90px;
+        left: -100%;
+        z-index: -3;
+        transition: 0.5s;
+    }
+
+    .nav-menu.active { background-color: black;
+        left: 0;
+    }
+
+    .nav-menu li { background-color: black;
+        padding: 1rem 0;
+        font-size: 50%;
+    }
+    .nav-menu li a { background-color: black;
+        font-size: 2rem;
+    }
+
+    .hamburger-1 { 
+        display: initial;
+    }
+
+    .hamburger-1 i { background-color: black;
+        color: #fff;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+} */
+

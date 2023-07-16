@@ -1,0 +1,241 @@
+
+
+
+
+form {
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  border: 5px solid white;
+  border-radius: 5px;
+  background-color: black;
+  
+}
+
+/* Form inputs */
+form input, form textarea {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  display: block;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align:center;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  width: 79%;
+}
+
+/* Form submit button */
+form button[type="submit"] {
+  width: 80%;
+  background-color: rgba(68, 64, 64, 0.459);
+  color: white;
+  padding: 14px 0px;
+  margin: 8px auto;
+  border: 5px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+form button[type="submit"]:hover {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+/* Form heading */
+form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-form {
+  background-color: #2e2e2eeb;
+  padding: -17px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #888888;
+  width : 50%;
+  position: relative;
+  margin-bottom: 141px;
+  margin-top: 30px;
+  right: -27px;
+  top: 47px;
+
+
+  margin: 108px;
+  position: relative;
+  margin-bottom: 141px;
+}
+
+.form-label {
+  color: darkgray;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.input form-input_1 {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid gray;
+  width: 79%;
+}
+
+
+.form-submit {
+  background-color: #00ff00;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+  background-color: #00cc00;
+  cursor: pointer;
+}
+
+
+
+
+  
+
+  .swal-overlay {
+    background-color: #000000 !important; 
+   }
+   .swal-text {
+    font-size: 20px !important; 
+    color: black;
+  }
+  
+  .swal-button {
+    background-color: black !important; 
+    color: white !important; 
+  }
+
+  .form-and-div-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  @media only screen and (max-width: 768px) {
+ 
+    .contact-form {
+      margin: auto;
+     
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px #888888;
+      width: 87%;
+      margin-top: 30px;
+      top: 47px;
+      margin-left: 0;
+      position: relative;
+      margin-bottom: 141px;
+  
+      }
+    .form-and-div-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  
+  .form-and-div-container {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    #second-heading-container {
+      color: black;
+      width: 50%;
+      right: 23px;
+      text-align: center;
+      position: relative;
+      margin: auto;
+      margin-left: 0;
+      margin-right: 0;
+
+    
+    }
+    
+    @media only screen and (max-width: 768px) {
+      
+      .contact-form {
+        margin: auto;
+        
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px #888888;
+        width: 87%;
+        margin-top: 30px;
+        top: 47px;
+        margin-left: 0;
+        position: relative;
+        margin-bottom: 141px;
+    
+        }
+
+    .form-and-div-container {
+    flex-direction: column;
+    align-items: center;
+    }
+    }
+    
+    @media (max-width: 576px) {
+     .contact-form {
+    margin: auto;
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #888888;
+    width: 87%;
+    margin-top: 30px;
+    top: 47px;
+    margin-left: 0;
+    position: relative;
+    margin-bottom: 141px;
+
+    }
+    #second-heading-container {color: black;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    
+    }
+    }
+    
+   
+
+    #a-tag-3 {
+      text-align: center;
+      color: #000000; 
+      top: 273px;
+      font-size: 25px;line-height: 1;
+      margin-bottom: 10px;
+      font-family: 'Open Sans', sans-serif;
+      /* position: relative; */
+  }
+  
+  #a-tag-4 {
+
+    text-align: center;
+    color: #000000a2;
+    top: 273px;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    /* position: relative; */
+}
+
